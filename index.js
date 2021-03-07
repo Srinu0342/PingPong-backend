@@ -12,7 +12,7 @@ app.use(bp.urlencoded({ extended: true }));
 
 const data = {};
 
-app.get('/', (req, res) => {
+app.get('/admin_data_reach', (req, res) => {
   console.log('connected');
   res.send(data);
 });
