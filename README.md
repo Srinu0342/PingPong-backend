@@ -1,8 +1,8 @@
 ## BACKEND INSTRUCTIONS:
- 
+** RUN npm test for unit testing added in test.js 
 ** RUN node index.js to run the backend
 
-1. The app only has server memory for storage. For production ready app needs to connect document based database connected.
+1. The app only has server memory for storage. For production ready app needs to connect document based database.
 2. At this stage restarting the server will cause loosing all the stored match data.
 3. To have the app used for a high traffic the app needs restructuring as per features(both frontend and backend). 
    To consider the high traffic the app has to be scaled horizentally. For this we need more servers running and distributed
