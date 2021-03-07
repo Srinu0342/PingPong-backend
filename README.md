@@ -1,4 +1,6 @@
 ## BACKEND INSTRUCTIONS:
+ 
+** RUN node index.js to run the backend
 
 1. The app only has server memory for storage. For production ready app needs to connect document based database connected.
 2. At this stage restarting the server will cause loosing all the stored match data.
@@ -7,3 +9,4 @@
  by loadbalancers. The database should also be replicated to consider failures. If more features like authentication,
 dashboard for game history for each player or more feature is added we can consider API based microservices architecture for 
 the app.
+

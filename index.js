@@ -35,7 +35,7 @@ app.post('/game', (req, res) => {
   }
 
   // console.log(data);
-  res.send('received');
+  res.json({ msg: 'received' });
 });
 
 app.post('/matchsetup', (req, res) => {
@@ -61,4 +61,10 @@ app.post('/matchsetup', (req, res) => {
   res.send({ score1, score2 });
 });
 
+app.get('/', (req, res) => {
+  res.json({ msg: 'WORKING PROPERLY' });
+});
+
 app.listen(8000, () => console.log('server running at port: 8000'));
+
+module.exports = app;
