@@ -4,7 +4,8 @@
   "description": "backend for pingpong game",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index"
   },
   "author": "Subhadip",
   "license": "ISC",
